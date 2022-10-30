@@ -12,7 +12,7 @@ int main()
 	float d2(0.1);
 	std::cout << "This should be 0.1 " << d2 << std::endl;
 
-	float d2(0.1*0.1);
+	float d3(0.1*0.1);
 	std::cout << "This should be 0.01 " << d3 << std::endl;
 
 	bool x (0.1 + 0.1 + 0.1 == 0.3);
