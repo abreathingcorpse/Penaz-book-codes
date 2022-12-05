@@ -25,6 +25,7 @@ class PlayableCharacter {
 			// movement_component.update(); // Prince's way without pointer 
 		}
 	private:
+		// error: cannot allocate an object of abstract type 'Updateable'
 		// Updateable movement_component = MovableObject(); // Penaz's way
 		Updateable* movement_component = new MovableObject(); // Prince's way
 		// Updateable movement_component = new MovableObject(); // Prince's way without pointer
